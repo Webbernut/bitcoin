@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Roboto:wght@700;900&display=swap');
+.navbar{
+	background-color: black;
+	padding: 0 6.250vw 0 6.250vw;
+	overflow: hidden;
+}
+.wrapper__head{
+	background-color: black;
+}
+.nav-link{
+	color: white;
+	font-size: 30px;
+	margin: 0 0 0 1.953vw;
+	font-weight: 600;
+	transition: .3s;
+}
+.nav-link:hover{
+	color: white;
+	text-shadow:  0 0 5px #ffffff, 0 0 10px #ffffff,0 0 20px #ffffff, 0 0 40px #8A00F3, 0 0 80px #8A00F3, 0 0 90px #8A00F3, 0 0 100px #8A00F3;
+}
+.head{
+	background: url(../pictures/background/header.jpg);
+	width: 100%;
+	height: 52.734vw;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+.head__triagle{
+	width: 60vw;
+	height: 50vw;
+	margin-left: -10vw;
+}
+.head__header{
+	font-size: 4.883vw;
+	font-weight: 700;
+	font-family: "Roboto";
+	line-height: 5.713vw;
+	margin-bottom: 1.807vw;
+}
+.head__text{
+	font-size: 1.709vw;
+	font-weight: 600;
+	font-family: "Raleway";
+	margin-bottom: 1.953vw;
+	line-height: 2vw;
+}
+.button{
+	font-size: 1.709vw;
+	background-color: #8A00F3;
+	padding: 0.586vw 4.688vw 0.586vw 4.688vw;
+	color: white;
+	font-weight: 800;
+	font-family: "Raleway";
+	border-radius: 2.441vw;
+	transition: .3s;
+}
+.button:hover{
+	text-decoration: none;
+	color: white;
+	box-shadow:  0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #8A00F3, 0 0 80px #8A00F3, 0 0 90px #8A00F3, 0 0 100px #8A00F3;
+	text-shadow: 0 0 10px #ffffff;
+}
+.head__block_text{
+	margin-top: 12.695vw;
+}
+.line_1{
+	stroke: #8F00FF;
+	stroke-width: 0.162px;
+	fill: transparent;
+	stroke-dasharray: 1700;
+	stroke-dashoffset: 1700;
+	animation: animate 3.7s forwards;
+}
+.line_2{
+	stroke: #CC00FF;
+	stroke-width: 13.65px;
+	fill: transparent;
+	stroke-dasharray: 1700;
+	stroke-dashoffset: 1700;
+	animation: animate 3.9s forwards;
+}
+.line_3{
+	stroke: #CC00FF;
+	stroke-width: 17.85px;
+	fill: transparent;
+	stroke-dasharray: 1700;
+	stroke-dashoffset: 1700;
+	animation: animate 4.1s forwards;
+}
+.line_4{
+	stroke: #6100FF;
+	stroke-width: 13.65px;
+	fill: transparent;
+	stroke-dasharray: 1700;
+	stroke-dashoffset: 1700;
+	animation: animate 4.3s forwards;
+}
+.line_5{
+	stroke: #C882FF;
+	stroke-width: 8.4px;
+	fill: transparent;
+	stroke-dasharray: 1700;
+	stroke-dashoffset: 1700;
+	animation: animate 4.5s forwards;
+}
+.line_6{
+	stroke: white;
+	stroke-width: 4.2px;
+	fill: transparent;
+	stroke-dasharray: 1700;
+	stroke-dashoffset: 1700;
+	animation: animate 4.7s forwards;
+}
+@keyframes animate{
+	to{
+		stroke-dashoffset: 0;
+	}
+}

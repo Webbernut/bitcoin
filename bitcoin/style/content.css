@@ -1,0 +1,155 @@
+.info{
+	background: url(../pictures/background/two__block.png);
+	background-size: 100%;
+	width: 100%;
+	height: 24.414vw;
+	background-repeat: no-repeat;
+	padding-top: 4.395vw;
+}
+.info__header{
+	font-weight: 600;
+	font-family: "Roboto";
+	font-size: 3.418vw;
+	margin-bottom: 1.660vw;
+}
+.info__text{
+	font-size: 2.441vw;
+	font-weight: 600;
+	font-family: "Raleway";
+	line-height: 2.881vw;
+}
+
+
+
+.game{
+	background: url(../pictures/background/four__block.jpg);
+	background-size: 100%;
+	width: 100%;
+	height: 53.711vw;
+	background-repeat: no-repeat;
+	padding-top: 10.742vw;
+}
+.game__item{
+	width: 19.775vw;
+	margin: auto;
+	background-color: #3026C7;
+	border-radius: 1.221vw;
+	padding: 0 0.928vw 2.441vw 0.928vw;
+}
+.game__header{
+	font-family: "Raleway";
+	font-weight: 600;
+	font-size: 1.953vw;
+	line-height: 2.295vw;
+}
+.game__text{
+	font-family: 'Raleway';
+	font-weight: 600;
+	font-size: 1.123vw;
+	line-height: 1.318vw;
+	margin-bottom: 2.344vw;
+}
+.game__png{
+	width: 16.992vw;
+	height: 16.992vw;
+}
+.game__button{
+	padding: 0.586vw 4.004vw 0.586vw 4.004vw;
+}
+
+
+
+.pricing{
+	background: url(../pictures/background/three__block.jpg);
+	background-size: 100%;
+	width: 100%;
+	height: 156.250vw;
+	background-repeat: no-repeat;
+	padding-top: 9.424vw;
+}
+.pricing__item{
+	width: 19.775vw;
+	margin: auto;
+	background-color: #3026C7;
+	border-radius: 1.221vw;
+	text-align: center;
+	padding: 0.928vw;
+}
+.pricing__block_text_right{
+	margin-bottom: 11.865vw;
+	margin-left: 47.510vw;
+}
+.pricing__header_bottom{
+	margin-bottom: 6.787vw;
+}
+.pricing__text{
+	font-family: 'Raleway';
+	font-weight: 600;
+	font-size: 2.441vw;
+	line-height: 2.881vw;
+	margin-bottom: 4.688vw;
+}
+.pricing__subheader{
+	font-family: 'Roboto';
+font-weight: 800;
+font-size: 2.441vw;
+line-height: 2.881vw;
+margin-bottom: 3.955vw;
+}
+.pricing__subtext{
+	font-family: 'Raleway';
+font-weight: 600;
+font-size: 1.221vw;
+line-height: 1.465vw;
+margin-bottom: 3.711vw;
+}
+.pricing__column{
+	margin-bottom: 20.227vw;
+}
+.pricing__block_text{
+	width: 37.842vw;
+}
+.pricing__header{
+	font-family: 'Roboto';
+font-weight: 600;
+font-size: 4.883vw;
+}
+.pricing__button{
+	padding: 0.586vw 3.906vw 0.586vw 3.906vw;
+}
+
+
+.email{
+	background: url(../pictures/background/five__block.jpg);
+	background-size: 100%;
+	width: 100%;
+	height: 53.711vw;
+	background-repeat: no-repeat;
+	padding-top: 12vw;
+}
+.email__button{
+	font-size: 1.953vw;
+	padding: 0.586vw 0.977vw 0.391vw 0.977vw;
+	border-radius: 0px 1.221vw 1.221vw 0px;
+}
+.email__string{
+	outline: none;
+	border: 1px solid black;
+	border-radius: 1.221vw 0px 0px 1.221vw;
+	padding: 0.098vw 4.688vw 0.098vw 0.586vw;
+	font-size: 1.953vw;
+	color: black;
+}
+.email__text{
+	font-family: 'Raleway';
+	font-weight: 600;
+	font-size: 1.953vw;
+	line-height: 2.295vw;
+	margin-bottom: 3.613vw;
+}
+.email__header{
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: 4.883vw;
+	margin-bottom: 2.100vw;
+}
